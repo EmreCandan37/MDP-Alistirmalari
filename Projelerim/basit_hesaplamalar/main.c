@@ -14,5 +14,10 @@ int main()
     printf("Birinci sayinin ve ikinci sayinin Toplami: %d\n",tamsayi1+tamsayi2);
     printf("Birinci sayinin ve ikinci sayinin Farki: %d\n",tamsayi1-tamsayi2);
     printf("Birinci sayinin ve ikinci sayinin Carpimi: %d\n",tamsayi1*tamsayi2);
-    printf("Birinci sayinin ve ikinci sayinin Bolumu: %3f\n",(float)tamsayi1/tamsayi2);
+    if (tamsayi2 == 0){
+        printf("Bir sayi, sifira bolunemez.");
+    }
+    else{
+    printf("Birinci sayinin ve ikinci sayinin Bolumu: %.4f\n",(float)tamsayi1/tamsayi2);
+    }
 }
